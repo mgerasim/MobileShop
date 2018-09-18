@@ -1,5 +1,5 @@
-﻿<Properties StartupConfiguration="{F08533C0-8B13-4FD5-ACD6-01FFC8760BB3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MobileShop/Pages/MainPage.cs">
+﻿<Properties StartupConfiguration="{73832E87-7CFC-4D13-8202-2F5A9B3C02B7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shop.Core/Class1.cs">
     <Files>
       <File FileName="MobileShop/MainPage.xaml.cs" Line="1" Column="1" />
       <File FileName="MobileShop/MainPage.xaml" Line="7" Column="15" />
@@ -7,6 +7,8 @@
       <File FileName="MobileShop/Services/ISettingsService.cs" Line="1" Column="1" />
       <File FileName="MobileShop/Services/SettingsService.cs" Line="1" Column="1" />
       <File FileName="MobileShop/Pages/MainPage.cs" Line="1" Column="1" />
+      <File FileName="MobileShop/ViewModels/MainViewModel.cs" Line="1" Column="1" />
+      <File FileName="Shop.Core/Class1.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MobileShop.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
@@ -17,4 +19,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MobileShop.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2A547672-BDA4-46CA-94A9-56E97B806AC2" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Shop.Core FirstBuild="True" />
 </Properties>
