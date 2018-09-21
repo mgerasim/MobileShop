@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{73832E87-7CFC-4D13-8202-2F5A9B3C02B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shop.Core/Class1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileShop/GlobalSettings.cs">
     <Files>
-      <File FileName="MobileShop/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="MobileShop/MainPage.xaml" Line="7" Column="15" />
-      <File FileName="MobileShop/GlobalSettings.cs" Line="7" Column="9" />
+      <File FileName="MobileShop/GlobalSettings.cs" Line="1" Column="1" />
       <File FileName="MobileShop/Services/ISettingsService.cs" Line="1" Column="1" />
       <File FileName="MobileShop/Services/SettingsService.cs" Line="1" Column="1" />
       <File FileName="MobileShop/Pages/MainPage.cs" Line="1" Column="1" />
       <File FileName="MobileShop/ViewModels/MainViewModel.cs" Line="1" Column="1" />
       <File FileName="Shop.Core/Class1.cs" Line="1" Column="1" />
+      <File FileName="Shop.Core/Models/Shop.cs" Line="5" Column="26" />
+      <File FileName="Shop.Core/Models/Product.cs" Line="5" Column="26" />
+      <File FileName="Shop.Core/Models/Category.cs" Line="5" Column="36" />
+      <File FileName="Shop.Core/Services/DataAccess/IDataAccess.cs" Line="10" Column="6" />
+      <File FileName="Shop.Core/Services/DataAccess/DataAccess.cs" Line="13" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MobileShop.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
@@ -19,5 +22,5 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.MobileShop.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2A547672-BDA4-46CA-94A9-56E97B806AC2" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Shop.Core FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.ShopFramework FirstBuild="True" />
 </Properties>

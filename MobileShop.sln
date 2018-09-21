@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShop.iOS", "MobileSho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileShop", "MobileShop\MobileShop.csproj", "{A646F7D5-D42F-46BA-848D-FFEDB029D2CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Core", "Shop.Core\Shop.Core.csproj", "{DE4E26C0-5F1A-4447-A710-752E10D58A77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopFramework", "Shop.Core\ShopFramework.csproj", "{DE4E26C0-5F1A-4447-A710-752E10D58A77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
