@@ -4,9 +4,9 @@ namespace ShopFramework.Models
     /// <summary>
     /// Описание продукта
     /// </summary>
-    public class Product
+    public class Product1
     {
-        public Product()
+        public Product1()
         {
         }
     }

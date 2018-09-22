@@ -4,12 +4,12 @@ namespace ShopFramework.Models
     /// <summary>
     /// Описание категории продукта
     /// </summary>
-    public class Category
+    public class Category1
     {
         /// <summary>
         /// Конструктор
         /// </summary>
-        public Category()
+        public Category1()
         {
         }
     }
