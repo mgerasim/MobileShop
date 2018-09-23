@@ -1,48 +1,28 @@
 ﻿<Properties StartupConfiguration="{73832E87-7CFC-4D13-8202-2F5A9B3C02B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shop.Core/Services/DataAccess/DataAccessYandexMarket.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileShop/MainPage.xaml.cs">
     <Files>
-      <File FileName="MobileShop/GlobalSettings.cs" Line="1" Column="1" />
-      <File FileName="MobileShop/Services/ISettingsService.cs" Line="1" Column="1" />
-      <File FileName="MobileShop/Services/SettingsService.cs" Line="1" Column="1" />
-      <File FileName="MobileShop/Pages/MainPage.cs" Line="1" Column="1" />
-      <File FileName="MobileShop/ViewModels/MainViewModel.cs" Line="1" Column="1" />
-      <File FileName="Shop.Core/Class1.cs" Line="1" Column="1" />
-      <File FileName="Shop.Core/Models/Shop.cs" Line="10" Column="10" />
-      <File FileName="Shop.Core/Models/Product.cs" Line="2" Column="24" />
-      <File FileName="Shop.Core/Models/Category.cs" Line="2" Column="24" />
-      <File FileName="Shop.Core/Services/DataAccess/IDataAccess.cs" Line="14" Column="1" />
-      <File FileName="Shop.Core/Services/DataAccess/DataAccess.cs" Line="22" Column="19" />
-      <File FileName="Shop.Core/Services/DataAccess/DataAccessYandexMarket.cs" Line="46" Column="13" />
-      <File FileName="MobileShop.FunctionalTests/Services/DataAccessTest.cs" Line="9" Column="6" />
+      <File FileName="MobileShop/ViewModels/CategoryViewModel.cs" Line="15" Column="24" />
+      <File FileName="MobileShop/Pages/CatalogPage.xaml" Line="19" Column="1" />
+      <File FileName="MobileShop/ViewModels/Base/ViewModelBase.cs" Line="2" Column="1" />
+      <File FileName="MobileShop/ViewModels/Base/ExtendedBindableObject.cs" Line="6" Column="21" />
+      <File FileName="MobileShop/Pages/CatalogPage.xaml.cs" Line="32" Column="50" />
+      <File FileName="MobileShop/GlobalSettings.cs" Line="14" Column="13" />
+      <File FileName="Shop.Core/Models/Shop.cs" Line="115" Column="18" />
+      <File FileName="Shop.Core/Services/DataAccess/DataAccessYandexMarket.cs" Line="62" Column="36" />
+      <File FileName="Исходный код недоступен" />
+      <File FileName="MobileShop/MainPage.xaml" Line="7" Column="15" />
+      <File FileName="MobileShop/MainPage.xaml.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="MobileShop" expanded="True">
-            <Node name="MobileShop.FunctionalTests" expanded="True">
-              <Node name="MobileShop" expanded="True">
-                <Node name="FunctionalTests" expanded="True">
-                  <Node name="Services" expanded="True">
-                    <Node name="DataAccessTest" expanded="True">
-                      <Node name="DataAccessYandexMarket_NotNull" selected="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MobileShop.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/mgerasim/Projects/MobileShop/MobileShop.FunctionalTests/Services/DataAccessTest.cs" relfile="MobileShop.FunctionalTests/Services/DataAccessTest.cs" line="15" column="1" />
+      <Breakpoint file="/Users/mgerasim/Projects/MobileShop/MobileShop/GlobalSettings.cs" relfile="MobileShop/GlobalSettings.cs" line="13" column="1" />
+      <Breakpoint file="/Users/mgerasim/Projects/MobileShop/MobileShop/MainPage.xaml.cs" relfile="MobileShop/MainPage.xaml.cs" line="15" column="1" />
+      <Breakpoint file="/Users/mgerasim/Projects/MobileShop/MobileShop/MainPage.xaml.cs" relfile="MobileShop/MainPage.xaml.cs" line="20" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.MobileShop.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2A547672-BDA4-46CA-94A9-56E97B806AC2" />
   <MultiItemStartupConfigurations />
 </Properties>
