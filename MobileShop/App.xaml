@@ -1,5 +1,20 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Application xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="MobileShop.App">
+<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             
+             xmlns:converters="clr-namespace:MobileShop.Converters;assembly=MobileShop"
+             xmlns:behaviors="clr-namespace:MobileShop.Behaviors;assembly=MobileShop"
+             
+             x:Class="MobileShop.App">
     <Application.Resources>
+        <ResourceDictionary>
+            
+            <Color x:Key="LoadingIndicator">#CCFFFFFF</Color>
+            
+            
+            <!-- CONVERTERS -->
+            <converters:ItemTappedEventArgsConverter x:Key="ItemTappedEventArgsConverter" />
+
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -1,11 +1,14 @@
 ﻿using System.Threading.Tasks;
+using MobileShop.Services.Navigation;
 
 namespace MobileShop.ViewModels.Base
 {
 	public abstract class ViewModelBase : ExtendedBindableObject
 	{
 
-		private bool _isBusy;
+        protected readonly INavigationService NavigationService;
+
+        bool _isBusy;
 
 		public bool IsBusy
 		{
@@ -22,12 +25,12 @@ namespace MobileShop.ViewModels.Base
 			}
 		}
 
-		public ViewModelBase()
+		protected ViewModelBase()
 		{
-			
+            NavigationService = new NavigationService();
 		}
 
-		public virtual Task InitializeAsync()
+		public virtual Task InitializeAsync(object parameter)
 		{
             return Task.CompletedTask;
 		}

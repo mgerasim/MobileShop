@@ -1,26 +1,67 @@
 ﻿<Properties StartupConfiguration="{73832E87-7CFC-4D13-8202-2F5A9B3C02B7}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MobileShop/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Исходный код недоступен">
     <Files>
-      <File FileName="MobileShop/ViewModels/CategoryViewModel.cs" Line="15" Column="24" />
-      <File FileName="MobileShop/Pages/CatalogPage.xaml" Line="19" Column="1" />
-      <File FileName="MobileShop/ViewModels/Base/ViewModelBase.cs" Line="2" Column="1" />
+      <File FileName="MobileShop/ViewModels/CatalogViewModel.cs" Line="44" Column="120" />
+      <File FileName="MobileShop/Pages/CatalogPage.xaml" Line="9" Column="64" />
+      <File FileName="MobileShop/ViewModels/Base/ViewModelBase.cs" Line="36" Column="1" />
       <File FileName="MobileShop/ViewModels/Base/ExtendedBindableObject.cs" Line="6" Column="21" />
-      <File FileName="MobileShop/Pages/CatalogPage.xaml.cs" Line="32" Column="50" />
-      <File FileName="MobileShop/GlobalSettings.cs" Line="14" Column="13" />
-      <File FileName="Shop.Core/Models/Shop.cs" Line="115" Column="18" />
+      <File FileName="MobileShop/Pages/CatalogPage.xaml.cs" Line="20" Column="1" />
+      <File FileName="MobileShop/GlobalSettings.cs" Line="13" Column="1" />
+      <File FileName="Shop.Core/Models/Shop.cs" Line="120" Column="21" />
       <File FileName="Shop.Core/Services/DataAccess/DataAccessYandexMarket.cs" Line="62" Column="36" />
+      <File FileName="MobileShop/Pages/SplashPage.xaml" Line="18" Column="1" />
+      <File FileName="MobileShop/Pages/SplashPage.xaml.cs" Line="29" Column="1" />
+      <File FileName="MobileShop/ViewModels/SplashViewModel.cs" Line="27" Column="69" />
+      <File FileName="MobileShop/App.xaml" Line="20" Column="15" />
+      <File FileName="MobileShop/App.xaml.cs" Line="15" Column="54" />
+      <File FileName="../../Library/Mobile Documents/com~apple~CloudDocs/repos/LersUchetMobile/LersUchetMobile/LersUchetMobile/LersMobile/LersMobile/Pages/LoginPage.xaml" Line="115" Column="27" />
+      <File FileName="../../Library/Mobile Documents/com~apple~CloudDocs/repos/LersUchetMobile/LersUchetMobile/LersUchetMobile/LersMobile/LersMobile/App.xaml" Line="39" Column="1" />
+      <File FileName="MobileShop/Services/Navigation/INavigationService.cs" Line="12" Column="8" />
+      <File FileName="MobileShop/Pages/CustomNavigationPage.xaml" Line="8" Column="1" />
+      <File FileName="MobileShop/Pages/CustomNavigationPage.xaml.cs" Line="6" Column="11" />
+      <File FileName="../../Library/Mobile Documents/com~apple~CloudDocs/repos/LersUchetMobile/LersUchetMobile/LersUchetMobile/LersMobile/LersMobile/Pages/CustomNavigationPage.xaml.cs" Line="23" Column="3" />
+      <File FileName="../../Library/Mobile Documents/com~apple~CloudDocs/repos/LersUchetMobile/LersUchetMobile/LersUchetMobile/LersMobile/LersMobile/Pages/CustomNavigationPage.xaml" Line="2" Column="1" />
+      <File FileName="../../Library/Mobile Documents/com~apple~CloudDocs/repos/LersUchetMobile/LersUchetMobile/LersUchetMobile/LersMobile/LersMobile/ViewModels/Base/ViewModelBase.cs" Line="11" Column="51" />
+      <File FileName="MobileShop/Services/Navigation/NavigationService.cs" Line="96" Column="64" />
+      <File FileName="MobileShop/Behaviors/Base/BindableBehavior.cs" Line="1" Column="1" />
+      <File FileName="MobileShop/Behaviors/EventToCommandBehavior.cs" Line="133" Column="1" />
+      <File FileName="MobileShop/Behaviors/LineColorBehavior.cs" Line="2" Column="17" />
+      <File FileName="MobileShop/Effects/EntryLineColorEffect.cs" Line="10" Column="3" />
+      <File FileName="MobileShop/Converters/ItemTappedEventArgsConverter.cs" Line="7" Column="64" />
       <File FileName="Исходный код недоступен" />
-      <File FileName="MobileShop/MainPage.xaml" Line="7" Column="15" />
-      <File FileName="MobileShop/MainPage.xaml.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MobileShop" expanded="True">
+            <Node name="MobileShop" expanded="True">
+              <Node name="Behaviors" expanded="True">
+                <Node name="Base" expanded="True" />
+              </Node>
+              <Node name="Converters" expanded="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Navigation" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True">
+                <Node name="Base" expanded="True" />
+                <Node name="CatalogViewModel.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="MobileShop.Android" expanded="True" />
+            <Node name="ShopFramework" expanded="True">
+              <Node name="Models" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.MobileShop.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/mgerasim/Projects/MobileShop/MobileShop/GlobalSettings.cs" relfile="MobileShop/GlobalSettings.cs" line="13" column="1" />
-      <Breakpoint file="/Users/mgerasim/Projects/MobileShop/MobileShop/MainPage.xaml.cs" relfile="MobileShop/MainPage.xaml.cs" line="15" column="1" />
-      <Breakpoint file="/Users/mgerasim/Projects/MobileShop/MobileShop/MainPage.xaml.cs" relfile="MobileShop/MainPage.xaml.cs" line="20" column="1" />
+      <Breakpoint file="/Users/mgerasim/Projects/MobileShop/MobileShop/Services/Navigation/NavigationService.cs" relfile="MobileShop/Services/Navigation/NavigationService.cs" line="48" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

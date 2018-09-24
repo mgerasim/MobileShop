@@ -2,9 +2,18 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="MobileShop.Pages.CatalogPage">
+    xmlns:behaviors="clr-namespace:MobileShop.Behaviors;assembly=MobileShop"
+    x:Class="MobileShop.Pages.CatalogPage"
+    Title="{Binding Title}">
     <ContentPage.Content>
-        <ListView ItemsSource="{Binding Categories}">
+        <ListView ItemsSource="{Binding Categories, Mode=TwoWay}">
+            <ListView.Behaviors>
+                    
+                    <behaviors:EventToCommandBehavior                    
+                        EventName="ItemTapped"
+                        Command="{Binding SelectCatalogItemCommand}"
+                        EventArgsConverter="{StaticResource ItemTappedEventArgsConverter}" />
+            </ListView.Behaviors>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

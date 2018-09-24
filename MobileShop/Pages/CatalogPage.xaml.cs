@@ -11,27 +11,19 @@ namespace MobileShop.Pages
         /// <summary>
         /// Класс модели представления
         /// </summary>
-        private CategoryViewModel viewMode = null;
+        private CatalogViewModel viewModel = null;
 
         public CatalogPage()
         {
             InitializeComponent();
 
-            viewMode = new CategoryViewModel(null);
+            viewModel = new CatalogViewModel(null);
 
-            BindingContext = viewMode;
+            BindingContext = viewModel;
         }
 
-        protected override async void OnAppearing()
+        protected override void OnAppearing()
         {
-            if (GlobalSettings.Instance.Shop == null)
-            {
-                DataAccessYandexMarket dal = new DataAccessYandexMarket("https://www.tdsammet.ru/index.php?route=feed/yandex_market");
-                GlobalSettings.Instance.Shop = (await dal.GetShop()).Shop;
-
-                await viewMode.InitializeAsync();
-            }
-
             base.OnAppearing();
         }
     }

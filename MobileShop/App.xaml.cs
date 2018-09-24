@@ -1,4 +1,5 @@
 ﻿using System;
+using MobileShop.Pages;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace MobileShop
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage( new MainPage() );
+            MainPage = new NavigationPage( new SplashPage() );
         }
 
         protected override void OnStart()
